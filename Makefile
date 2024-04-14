@@ -7,3 +7,7 @@ subarray:
 matrix:
 	$(CC) -o matrix-chain-multiplication/matrix.exe matrix-chain-multiplication/main.c
 	./matrix-chain-multiplication/matrix.exe
+
+subsequence:
+	$(CC) -o longest-common-subsequence/subsequence.exe longest-common-subsequence/main.c
+	./longest-common-subsequence/subsequence.exe
