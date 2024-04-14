@@ -11,3 +11,7 @@ matrix:
 subsequence:
 	$(CC) -o longest-common-subsequence/subsequence.exe longest-common-subsequence/main.c
 	./longest-common-subsequence/subsequence.exe
+
+01-dp:
+	$(CC) -o 0-1-knapsack-dp/0-1-dp.exe 0-1-knapsack-dp/main.c
+	./0-1-knapsack-dp/0-1-dp.exe
