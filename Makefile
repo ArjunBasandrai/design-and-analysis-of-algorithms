@@ -15,3 +15,7 @@ subsequence:
 01-dp:
 	$(CC) -o 0-1-knapsack-dp/0-1-dp.exe 0-1-knapsack-dp/main.c
 	./0-1-knapsack-dp/0-1-dp.exe
+
+subset:
+	$(CC) -o subset-sum/subset.exe subset-sum/main.c
+	./subset-sum/subset.exe
