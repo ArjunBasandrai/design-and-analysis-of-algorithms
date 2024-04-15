@@ -31,3 +31,7 @@ k-m-p:
 rabin:
 	$(CC) -o rabin-karp/rabin-karp.exe rabin-karp/main.c
 	./rabin-karp/rabin-karp.exe
+
+huffman:
+	$(CC) -o huffman-coding/huffman.exe huffman-coding/main.c
+	./huffman-coding/huffman.exe
