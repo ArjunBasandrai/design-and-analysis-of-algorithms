@@ -27,3 +27,7 @@ subset:
 k-m-p:
 	$(CC) -o kmp/kmp.exe kmp/main.c
 	./kmp/kmp.exe
+
+rabin:
+	$(CC) -o rabin-karp/rabin-karp.exe rabin-karp/main.c
+	./rabin-karp/rabin-karp.exe
