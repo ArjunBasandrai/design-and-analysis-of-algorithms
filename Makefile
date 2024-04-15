@@ -23,3 +23,7 @@ subsequence:
 subset:
 	$(CC) -o subset-sum/subset.exe subset-sum/main.c
 	./subset-sum/subset.exe
+
+k-m-p:
+	$(CC) -o kmp/kmp.exe kmp/main.c
+	./kmp/kmp.exe
