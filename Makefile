@@ -51,3 +51,7 @@ jarvis:
 bellman:
 	$(CC) -o bellman-ford/bellman.exe bellman-ford/main.c
 	./bellman-ford/bellman.exe
+
+floyd:
+	$(CC) -o floyd-warshall/floyd.exe floyd-warshall/main.c
+	./floyd-warshall/floyd.exe
