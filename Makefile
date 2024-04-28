@@ -55,3 +55,7 @@ bellman:
 floyd:
 	$(CC) -o floyd-warshall/floyd.exe floyd-warshall/main.c
 	./floyd-warshall/floyd.exe
+
+ford:
+	$(CC) -o ford-fulkerson/ford.exe ford-fulkerson/main.c
+	./ford-fulkerson/ford.exe
