@@ -68,9 +68,8 @@ void convex_hull(point points[], int n) {
 	int top = 0;
 	stack[top++] = points[0];
 	stack[top++] = points[1];
-	stack[top++] = points[2];
 
-	for (int i = 3; i < m; i++) {
+	for (int i = top; i < m; i++) {
 		while (top > 1 && orientation(stack[top-2], stack[top-1], points[i]) != 2)
 			top--;
 		stack[top++] = points[i];
