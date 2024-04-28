@@ -43,3 +43,7 @@ jobs:
 graham:
 	$(CC) -o graham-scan/graham.exe graham-scan/main.c
 	./graham-scan/graham.exe
+
+jarvis:
+	$(CC) -o jarvis-march/jarvis.exe jarvis-march/main.c
+	./jarvis-march/jarvis.exe
