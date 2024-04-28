@@ -47,3 +47,7 @@ graham:
 jarvis:
 	$(CC) -o jarvis-march/jarvis.exe jarvis-march/main.c
 	./jarvis-march/jarvis.exe
+
+bellman:
+	$(CC) -o bellman-ford/bellman.exe bellman-ford/main.c
+	./bellman-ford/bellman.exe
