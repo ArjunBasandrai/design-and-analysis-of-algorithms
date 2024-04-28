@@ -39,3 +39,7 @@ huffman:
 jobs: 
 	$(CC) -o job-sequencing-with-deadline/job.exe job-sequencing-with-deadline/main.c
 	./job-sequencing-with-deadline/job.exe
+
+graham:
+	$(CC) -o graham-scan/graham.exe graham-scan/main.c
+	./graham-scan/graham.exe
