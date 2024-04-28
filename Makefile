@@ -35,3 +35,7 @@ rabin:
 huffman:
 	$(CC) -o huffman-coding/huffman.exe huffman-coding/main.c
 	./huffman-coding/huffman.exe
+
+jobs: 
+	$(CC) -o job-sequencing-with-deadline/job.exe job-sequencing-with-deadline/main.c
+	./job-sequencing-with-deadline/job.exe
