@@ -5,10 +5,9 @@
 
 #define MAX_V 26
 
-// Define the edge struct
 typedef struct edge {
     int s, d;
-    struct edge* next; // Change to struct edge* instead of just edge*
+    struct edge* next;
 } edge;
 
 edge* head = NULL;
